@@ -22,7 +22,7 @@ on:
         default: ''
 
 env:
-  TOKEN_KIDDIN9: ${{ REPO_TOKEN }}
+  REPO_TOKEN_98416: ${{ REPO_TOKEN }}
   TZ: Asia/Shanghai
 
 jobs:
