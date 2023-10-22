@@ -207,4 +207,3 @@ jobs:
           -H "Accept: application/vnd.github.everest-preview+json" \
           -H "Authorization: token ${{ secrets.REPO_TOKEN }}" \
           -d '{"event_type": "ath79_nand ${{ github.event.inputs.param }}", "client_payload": {"target": "ath79_nand"}}'
-
